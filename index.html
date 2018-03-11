@@ -3,6 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Matt Underwood</title>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+      <script type="text/javascript" src="index.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine|Montserrat">
   </head>
   <body>
     <div class="background-image">
@@ -28,6 +38,60 @@
           </div>
         </div>
       </nav>
+    <div class="container-fluid">
+      <div class="top-row">
+        <div class="col-lg-3 col-md-3 col-sm-2 col-xs-1"></div>
+        <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+          <p id="intro" class="text-center about">
+            Full-Stack Developer and Blockchain Enthusiast
+          </p>
+          <hr></hr>
+          <p id="description" class="text-center">Seeking a position with a non-profit that focuses on social or environmental issues. Looking for new challenges and an environment that fosters growth.</p>
+
+          <div class="down-arrow">
+            <a href="#portfolio">
+              <i id="down-arrow" class="fas fa-angle-double-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-2 col-xs-1"></div>
+      </div>
+    </div>
+    </div>
+
+    <!-- project showcase w/ brief descriptions -->
+    <div class="portfolioIntroBack" id="portfolio">
+      <h2 class="text-center" id="portfolioIntro">I'm a self taught developer and have used a variety of online resources to learn how to build the following projects.</h2>
+    </div>
+    <div class="container-fluid portfolioBackground">
+      <div class="col-md-1" style="width: 12.499999995%"></div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <h3 class="portfolioHeader">Wikipedia Viewer</h3>
+        <a href="https://codepen.io/MattUnderwood/pen/opNKjj">
+          <img src="https://res.cloudinary.com/dls40gzte/image/upload/v1514066994/WikipediaViewer.png">
+        </a>
+        <p class="portfolioDescription">Wikipedia Viewer uses jQuery and AJAX to interact with the Wikipedia API and the particle.js library to create the interactive overlay on the background.</p>
+      </div>
+      <div class="col-lg-1 col-md-1"></div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <h3 class="portfolioHeader">Random Quote Machine</h3>
+        <a href="https://codepen.io/MattUnderwood/full/ZJjjOb/">
+          <img src="https://res.cloudinary.com/dls40gzte/image/upload/v1514068063/RandomQuoteMachine.png">
+        </a>
+        <p class="portfolioDescription">Random Quote Machine uses JavaScript and jQuery to iterate through a collection of quotes and display a random quote when the "New Quote" button is clicked.</p>
+      </div>
+      <div class="col-md-1" style="width: 12.499999995%"></div>
+    </div>
+
+    <!--footer with social media buttons and copyright -->
+      <div class="row footer">
+          <div>
+            <a href="https://github.com/MattUnderwood" target="_blank"><i class="socialButtons fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/matthew-underwood/" target="_blank"><i class="socialButtons fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/matt_underwood4" target="_blank"><i class="socialButtons fab fa-twitter"></i></a>
+            <a href="mailto:mattunderwood@protonmail.com" target="_blank"><i class="socialButtons far fa-envelope"></i></a>
+          </div>
+        <p class="myNameFooter">© 2018 Matt Underwood</p>
     </div>
 
   </body>

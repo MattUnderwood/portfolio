@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+}
+
+.navbar-header a {
+  font-size: 22px;
+}
+
+.navbar{
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  padding-left: 4%;
+  padding-right: 6%;
+}
+
+.background-image{
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://res.cloudinary.com/dls40gzte/image/upload/v1513820227/karsten-wurth-inf1783-55271-min_umexd8.jpg");
+      /* The image used */
+  /*    background-image: url("https://res.cloudinary.com/dls40gzte/image/upload/v1513820227/karsten-wurth-inf1783-55271-min_umexd8.jpg"); */
+      /* Full height */
+      height: 100%;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+.top-row{
+    margin-top: 12%;
+ }
+
+.footer{
+  background-color: #133043;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 30px 30px 0px 0px;
+  border-radius: 30% 30% 0px 0px;
+  }
+
+#intro {
+  font-size: 2em;
+  color: white;
+  font-family: 'Domine', serif;
+  font-weight: 600;
+}
+
+#description{
+  font-size: 1.5em;
+  color: white;
+}
+
+.down-arrow{
+  margin-top: 35%;
+  font-size: 3.5em;
+}
+
+#down-arrow{
+  color: white;
+}
+
+.portfolioIntroBack{
+  background-color: #133043;
+}
+
+#portfolioIntro{
+  margin-top: 0%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1.8em;
+  font-family: 'Domine', serif;
+  color: white;
+}
+
+.portfolioBackground{
+  padding-top: 3%;
+  /* background-color: #cce2ff; */
+}
+
+.portfolioHeader {
+  /* color: white; */
+  margin-bottom: 10%;
+  font-family: 'Domine', serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.portfolioDescription{
+  font-family: 'Montserrat', sans-serif;
+/*  color: white; */
+  font-size: 1.3em;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
+div {
+  text-align: center;
+}
+
+#eth-logo{
+  height: 300px;
+  width: 300px;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  margin-right: 20%;
+  position: absolute;
+  float: right;
+}
+
+.socialButtons {
+  float: center;
+  font-size: 4.0em;
+  padding-top: 25px;
+  color: white;
+  margin-right: 10px;
+}
+
+.myNameFooter {
+  margin-top: 30px;
+  color: white;
+  float: center;
+  font-size: 1.3em;
+  font-family: 'Domine', serif;
+}
+
+.portfolio {
+  padding-bottom: 15px;
+}
